@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="j3dutils">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../Java3D 1.6.1/Java3D 1.6.1/j3dutils.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
