@@ -215,7 +215,7 @@ transformation3 = new Transform3D();
     private void addOtherLight() {
         Color3f directionalLightColor = new Color3f(Color.BLACK);
         Color3f ambientLightColor = new Color3f(Color.WHITE);
-        Vector3f lightDirection = new Vector3f(-1F, -1F, -1F); 
+        Vector3f lightDirection = new Vector3f(-1F, -1F, -1F);
 
         AmbientLight ambientLight = new AmbientLight(ambientLightColor);
         DirectionalLight directionalLight = new DirectionalLight(directionalLightColor, lightDirection);
