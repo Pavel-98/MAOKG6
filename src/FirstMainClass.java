@@ -1,7 +1,6 @@
 //import com.microcrowd.loader.java3d.max3ds.Loader3DS;
 
 import com.sun.j3d.utils.behaviors.vp.OrbitBehavior;
-import com.sun.j3d.utils.geometry.*;
 import com.sun.j3d.utils.universe.*;
 
 import java.awt.Color;
@@ -244,7 +243,7 @@ transformation3 = new Transform3D();
         try {
             FirstMainClass window = new FirstMainClass();
 
-            AnimationPlane planeMovement = new AnimationPlane(groupBody, groupFront, groupBack, transformation1, transformation2, transformation3, window);
+            AnimationBug planeMovement = new AnimationBug(groupBody, groupFront, groupBack, transformation1, transformation2, transformation3, window);
             window.addKeyListener(planeMovement);
             window.setVisible(true);
         } catch (IOException ex) {

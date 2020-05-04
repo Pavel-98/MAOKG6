@@ -8,7 +8,7 @@ import javax.swing.JFrame;
 import javax.swing.Timer;
 import javax.vecmath.*;
 
-public class AnimationPlane implements ActionListener, KeyListener {
+public class AnimationBug implements ActionListener, KeyListener {
     private Button go;
     private TransformGroup wholePlane;
     private Transform3D translateTransform1 = new Transform3D();
@@ -51,7 +51,7 @@ public class AnimationPlane implements ActionListener, KeyListener {
     float z3 = 0;
     int counter = 0;
 
-    public AnimationPlane(TransformGroup animal, TransformGroup front, TransformGroup back, Transform3D trans1, Transform3D trans2, Transform3D trans3, JFrame frame) {
+    public AnimationBug(TransformGroup animal, TransformGroup front, TransformGroup back, Transform3D trans1, Transform3D trans2, Transform3D trans3, JFrame frame) {
         go = new Button("Go");
         this.groupBack = back;
         this.groupFront = front;
